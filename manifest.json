@@ -1,3 +1,10 @@
 {
-  "lessons": []
+  "lessons": [
+    {
+      "date": "2026-09-30",
+      "theme": "At School",
+      "duration_seconds": 571,
+      "file": "audio/2026-09-30-at-school.mp3"
+    }
+  ]
 }

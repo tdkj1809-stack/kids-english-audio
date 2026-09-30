@@ -1,2 +1,35 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>每日英语磨耳朵</title></head><body style="font-family:sans-serif;padding:32px"><h1>每日英语磨耳朵</h1><p>第一期音频正在准备中。</p></body></html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#173c66">
+  <title>每日英语磨耳朵</title>
+  <style>
+    :root{color-scheme:light;--navy:#173c66;--blue:#2f75b5;--sky:#eaf5ff;--ink:#19324a;--muted:#64748b}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(160deg,#edf7ff,#f8fbff 46%,#fff7e8);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif;color:var(--ink)}
+    main{max-width:720px;margin:auto;padding:24px 16px 48px}.hero{background:linear-gradient(135deg,var(--navy),var(--blue));color:white;border-radius:24px;padding:26px 22px;box-shadow:0 16px 40px #173c6630}
+    .eyebrow{font-size:13px;letter-spacing:.12em;opacity:.8}.hero h1{font-size:29px;margin:8px 0}.hero p{margin:0;line-height:1.7;opacity:.9}
+    .card{background:#ffffffdf;border:1px solid #fff;border-radius:20px;padding:20px;margin-top:16px;box-shadow:0 10px 30px #173c6612}.date{color:var(--blue);font-weight:700;font-size:14px}.topic{font-size:24px;font-weight:800;margin:6px 0 4px}.meta{color:var(--muted);font-size:14px;margin-bottom:18px}
+    audio{display:block;width:100%;height:48px}.tip{background:var(--sky);border-radius:14px;padding:12px 14px;margin-top:16px;font-size:14px;line-height:1.65}
+    h2{font-size:19px;margin:24px 0 10px}.lesson{display:flex;gap:12px;align-items:center;padding:14px 0;border-top:1px solid #e7edf3}.lesson:first-child{border-top:0}.lesson button{border:0;border-radius:50%;width:42px;height:42px;background:var(--navy);color:white;font-size:17px;flex:0 0 auto}.lesson .info{min-width:0;flex:1}.lesson strong{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.lesson span{display:block;color:var(--muted);font-size:13px;margin-top:4px}.download{color:var(--blue);text-decoration:none;font-size:13px;padding:8px}
+    footer{text-align:center;color:#8291a2;font-size:12px;margin-top:24px}
+  </style>
+</head>
+<body><main>
+  <section class="hero"><div class="eyebrow">KIDS ENGLISH · DAILY LISTENING</div><h1>每日英语磨耳朵</h1><p>适合二年级、Pre-A1～A1初期。先轻松听一遍，再跟读熟悉的短句。</p></section>
+  <section class="card" id="today"><div class="date">正在读取今日课程…</div></section>
+  <section class="card"><h2>最近7天</h2><div id="history"></div></section>
+  <footer>音频每日更新，仅保留最近7天</footer>
+</main>
+<script>
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const mins=s=>Math.max(1,Math.round((s||0)/60));
+fetch('manifest.json?v='+Date.now()).then(r=>r.json()).then(data=>{
+  const lessons=data.lessons||[]; const latest=lessons[0];
+  if(!latest) throw new Error('暂无课程');
+  document.querySelector('#today').innerHTML=`<div class="date">${esc(latest.date)} · 今日课程</div><div class="topic">${esc(latest.theme)}</div><div class="meta">约 ${mins(latest.duration_seconds)} 分钟 · 美式女声 · 慢速</div><audio id="mainAudio" controls preload="metadata" src="${esc(latest.file)}"></audio><div class="tip">听法建议：第一遍只听，不要求全部听懂；第二遍跟读熟悉的句子。每天10分钟，坚持比一次听很久更重要。</div>`;
+  document.querySelector('#history').innerHTML=lessons.map((x,i)=>`<div class="lesson"><button aria-label="播放" data-src="${esc(x.file)}">▶</button><div class="info"><strong>${esc(x.theme)}</strong><span>${esc(x.date)} · 约${mins(x.duration_seconds)}分钟</span></div><a class="download" href="${esc(x.file)}" download>下载</a></div>`).join('');
+  document.querySelectorAll('[data-src]').forEach(b=>b.onclick=()=>{const a=document.querySelector('#mainAudio');a.src=b.dataset.src;a.play();window.scrollTo({top:210,behavior:'smooth'});});
+}).catch(e=>document.querySelector('#today').innerHTML='<div class="topic">课程正在准备中</div><div class="meta">请稍后刷新页面。</div>');
+</script></body></html>
