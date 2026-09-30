@@ -13,23 +13,38 @@
     .card{background:#ffffffdf;border:1px solid #fff;border-radius:20px;padding:20px;margin-top:16px;box-shadow:0 10px 30px #173c6612}.date{color:var(--blue);font-weight:700;font-size:14px}.topic{font-size:24px;font-weight:800;margin:6px 0 4px}.meta{color:var(--muted);font-size:14px;margin-bottom:18px}
     audio{display:block;width:100%;height:48px}.tip{background:var(--sky);border-radius:14px;padding:12px 14px;margin-top:16px;font-size:14px;line-height:1.65}
     h2{font-size:19px;margin:24px 0 10px}.lesson{display:flex;gap:12px;align-items:center;padding:14px 0;border-top:1px solid #e7edf3}.lesson:first-child{border-top:0}.lesson button{border:0;border-radius:50%;width:42px;height:42px;background:var(--navy);color:white;font-size:17px;flex:0 0 auto}.lesson .info{min-width:0;flex:1}.lesson strong{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.lesson span{display:block;color:var(--muted);font-size:13px;margin-top:4px}.download{color:var(--blue);text-decoration:none;font-size:13px;padding:8px}
+    details{margin-top:16px;background:#fff;border:1px solid #e5edf5;border-radius:16px;overflow:hidden}summary{padding:16px 18px;font-weight:800;cursor:pointer;background:#f7fbff}.study{padding:4px 18px 14px}.pair{padding:11px 0;border-top:1px solid #edf2f7}.pair:first-child{border-top:0}.en{font-size:16px;line-height:1.55;font-weight:600}.zh{font-size:14px;line-height:1.55;color:var(--muted);margin-top:3px}.story{padding:14px 0}.story .en,.story .zh{font-weight:400;line-height:1.8}.label{color:var(--blue);font-size:12px;font-weight:800;margin-right:6px}.study-title{font-size:19px;margin:24px 0 8px}
     footer{text-align:center;color:#8291a2;font-size:12px;margin-top:24px}
   </style>
 </head>
 <body><main>
   <section class="hero"><div class="eyebrow">KIDS ENGLISH · DAILY LISTENING</div><h1>每日英语磨耳朵</h1><p>适合二年级、Pre-A1～A1初期。先轻松听一遍，再跟读熟悉的短句。</p></section>
   <section class="card" id="today"><div class="date">正在读取今日课程…</div></section>
+  <section class="card" id="study"><h2>中英文学习单</h2><div class="meta">正在读取文字内容…</div></section>
   <section class="card"><h2>最近7天</h2><div id="history"></div></section>
   <footer>音频每日更新，仅保留最近7天</footer>
 </main>
 <script>
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const mins=s=>Math.max(1,Math.round((s||0)/60));
+const pairs=(en=[],zh=[])=>en.map((x,i)=>`<div class="pair"><div class="en">${esc(x)}</div><div class="zh">${esc(zh[i]||'')}</div></div>`).join('');
+const renderStudy=c=>{
+  c=c||{};
+  if(!c.words){document.querySelector('#study').innerHTML='<h2>中英文学习单</h2><div class="meta">这期音频生成较早，暂未附双语文字。</div>';return;}
+  const q=(c.questions||[]).map((x,i)=>({en:`Q: ${x[0]}  A: ${x[1]}`,zh:(c.questions_zh&&c.questions_zh[i])?`问：${c.questions_zh[i][0]}　答：${c.questions_zh[i][1]}`:''}));
+  document.querySelector('#study').innerHTML=`<h2>中英文学习单</h2><div class="meta">文字区呈现核心内容；音频中的重复练习不重复列出。</div>
+    <details open><summary>重点词汇 Vocabulary</summary><div class="study">${pairs(c.words,c.words_zh)}</div></details>
+    <details><summary>核心句型 Sentences</summary><div class="study">${pairs(c.sentences,c.sentences_zh)}</div></details>
+    <details><summary>情景对话 Dialogue</summary><div class="study">${pairs(c.dialogue,c.dialogue_zh)}</div></details>
+    <details><summary>短故事 Story</summary><div class="study story"><div class="en">${esc(c.story||'')}</div><div class="zh">${esc(c.story_zh||'')}</div></div></details>
+    <details><summary>听力问答 Questions</summary><div class="study">${pairs(q.map(x=>x.en),q.map(x=>x.zh))}</div></details>`;
+};
 fetch('manifest.json?v='+Date.now()).then(r=>r.json()).then(data=>{
   const lessons=data.lessons||[]; const latest=lessons[0];
   if(!latest) throw new Error('暂无课程');
   document.querySelector('#today').innerHTML=`<div class="date">${esc(latest.date)} · 今日课程</div><div class="topic">${esc(latest.theme)}</div><div class="meta">约 ${mins(latest.duration_seconds)} 分钟 · 美式女声 · 慢速</div><audio id="mainAudio" controls preload="metadata" src="${esc(latest.file)}"></audio><div class="tip">听法建议：第一遍只听，不要求全部听懂；第二遍跟读熟悉的句子。每天10分钟，坚持比一次听很久更重要。</div>`;
-  document.querySelector('#history').innerHTML=lessons.map((x,i)=>`<div class="lesson"><button aria-label="播放" data-src="${esc(x.file)}">▶</button><div class="info"><strong>${esc(x.theme)}</strong><span>${esc(x.date)} · 约${mins(x.duration_seconds)}分钟</span></div><a class="download" href="${esc(x.file)}" download>下载</a></div>`).join('');
-  document.querySelectorAll('[data-src]').forEach(b=>b.onclick=()=>{const a=document.querySelector('#mainAudio');a.src=b.dataset.src;a.play();window.scrollTo({top:210,behavior:'smooth'});});
+  renderStudy(latest.content);
+  document.querySelector('#history').innerHTML=lessons.map((x,i)=>`<div class="lesson"><button aria-label="播放" data-index="${i}">▶</button><div class="info"><strong>${esc(x.theme)}</strong><span>${esc(x.date)} · 约${mins(x.duration_seconds)}分钟</span></div><a class="download" href="${esc(x.file)}" download>下载</a></div>`).join('');
+  document.querySelectorAll('[data-index]').forEach(b=>b.onclick=()=>{const x=lessons[Number(b.dataset.index)];const a=document.querySelector('#mainAudio');a.src=x.file;a.play();renderStudy(x.content);window.scrollTo({top:210,behavior:'smooth'});});
 }).catch(e=>document.querySelector('#today').innerHTML='<div class="topic">课程正在准备中</div><div class="meta">请稍后刷新页面。</div>');
 </script></body></html>
