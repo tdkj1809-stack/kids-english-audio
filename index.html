@@ -42,7 +42,7 @@ const renderStudy=c=>{
 fetch('manifest.json?v='+Date.now()).then(r=>r.json()).then(data=>{
   const lessons=data.lessons||[]; const latest=lessons[0];
   if(!latest) throw new Error('暂无课程');
-  document.querySelector('#today').innerHTML=`<div class="date">${esc(latest.date)} · 今日课程</div><div class="topic">${esc(latest.theme)}</div><div class="meta">约 ${mins(latest.duration_seconds)} 分钟 · 美式女声 · 慢速</div><audio id="mainAudio" controls preload="metadata" src="${esc(latest.file)}"></audio><div class="tip">听法建议：第一遍只听，不要求全部听懂；第二遍跟读熟悉的句子。每天10分钟，坚持比一次听很久更重要。</div>`;
+  document.querySelector('#today').innerHTML=`<div class="date">${esc(latest.date)} · 今日课程</div><div class="topic">${esc(latest.theme)}</div><div class="meta">约 ${mins(latest.duration_seconds)} 分钟 · ${esc(latest.voice||'美式女声')} · 慢速</div><audio id="mainAudio" controls preload="metadata" src="${esc(latest.file)}"></audio><div class="tip">听法建议：第一遍只听，不要求全部听懂；第二遍跟读熟悉的句子。每天10分钟，坚持比一次听很久更重要。</div>`;
   renderStudy(latest.content);
   document.querySelector('#history').innerHTML=lessons.map((x,i)=>`<div class="lesson"><button aria-label="播放" data-index="${i}">▶</button><div class="info"><strong>${esc(x.theme)}</strong><span>${esc(x.date)} · 约${mins(x.duration_seconds)}分钟</span></div><a class="download" href="${esc(x.file)}" download>下载</a></div>`).join('');
   document.querySelectorAll('[data-index]').forEach(b=>b.onclick=()=>{const x=lessons[Number(b.dataset.index)];const a=document.querySelector('#mainAudio');a.src=x.file;a.play();renderStudy(x.content);window.scrollTo({top:210,behavior:'smooth'});});

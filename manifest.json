@@ -1,6 +1,97 @@
 {
   "lessons": [
     {
+      "date": "2026-10-01",
+      "theme": "My Family",
+      "duration_seconds": 574,
+      "file": "audio/2026-10-01-my-family.mp3",
+      "voice": "美式男声",
+      "content": {
+        "words": [
+          "family",
+          "mother",
+          "father",
+          "sister",
+          "brother",
+          "grandma"
+        ],
+        "words_zh": [
+          "家庭",
+          "妈妈",
+          "爸爸",
+          "姐妹",
+          "兄弟",
+          "奶奶或外婆"
+        ],
+        "sentences": [
+          "This is my family.",
+          "My mother is kind.",
+          "My father is tall.",
+          "I have one sister.",
+          "I play with my brother.",
+          "I love my grandma."
+        ],
+        "sentences_zh": [
+          "这是我的家人。",
+          "我的妈妈很亲切。",
+          "我的爸爸很高。",
+          "我有一个姐妹。",
+          "我和弟弟一起玩。",
+          "我爱我的奶奶。"
+        ],
+        "dialogue": [
+          "Who is in this picture?",
+          "This is my family.",
+          "Who is this woman?",
+          "She is my mother.",
+          "Do you have a brother?",
+          "Yes, I do.",
+          "How old is he?",
+          "He is five years old."
+        ],
+        "dialogue_zh": [
+          "照片里是谁？",
+          "这是我的家人。",
+          "这位女士是谁？",
+          "她是我的妈妈。",
+          "你有兄弟吗？",
+          "是的，我有。",
+          "他几岁？",
+          "他五岁。"
+        ],
+        "story": "Sam has a happy family. His mother likes flowers, and his father likes books. Sam has a little brother named Max. Max is five years old. On Sunday, Grandma comes to their home. They make a big fruit salad together. After lunch, Sam and Max play with a yellow ball. Everyone has a good day.",
+        "story_zh": "萨姆有一个幸福的家庭。他的妈妈喜欢花，爸爸喜欢书。萨姆有一个名叫马克斯的弟弟。马克斯五岁。星期天，奶奶来到他们家。他们一起做了一大份水果沙拉。午饭后，萨姆和马克斯玩一个黄色的球。大家都度过了愉快的一天。",
+        "questions": [
+          [
+            "What does Sam's father like?",
+            "He likes books."
+          ],
+          [
+            "How old is Max?",
+            "He is five years old."
+          ],
+          [
+            "What do they make together?",
+            "They make a fruit salad."
+          ]
+        ],
+        "questions_zh": [
+          [
+            "萨姆的爸爸喜欢什么？",
+            "他喜欢书。"
+          ],
+          [
+            "马克斯几岁？",
+            "他五岁。"
+          ],
+          [
+            "他们一起做了什么？",
+            "他们做了水果沙拉。"
+          ]
+        ]
+      }
+    },
+    {
       "date": "2026-09-30",
       "theme": "At School",
       "duration_seconds": 571,
