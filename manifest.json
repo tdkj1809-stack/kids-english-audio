@@ -1,6 +1,99 @@
 {
   "lessons": [
     {
+      "date": "2026-10-02",
+      "theme": "The Toytown Rescue",
+      "duration_seconds": 363,
+      "file": "audio/2026-10-02-the-toytown-rescue.mp3",
+      "voice": "美式女声",
+      "content": {
+        "words": [
+          "bus",
+          "road",
+          "grass",
+          "helicopter",
+          "tow truck",
+          "rescue",
+          "friend"
+        ],
+        "words_zh": [
+          "巴士",
+          "道路",
+          "草地",
+          "直升机",
+          "拖车",
+          "营救",
+          "朋友"
+        ],
+        "sentences": [
+          "The bus is down in the grass.",
+          "I cannot see the bus.",
+          "The helicopter can see the bus.",
+          "The bus cannot get out.",
+          "The tow truck can help.",
+          "I am happy to see you."
+        ],
+        "sentences_zh": [
+          "巴士陷在草地里。",
+          "我看不到巴士。",
+          "直升机能看到巴士。",
+          "巴士无法脱困。",
+          "拖车可以帮忙。",
+          "见到你我很高兴。"
+        ],
+        "dialogue": [
+          "Where is the bus?",
+          "It is down in the grass.",
+          "Can you see it from the sky?",
+          "Yes, I can see the bus.",
+          "Can the bus get out?",
+          "No, it cannot.",
+          "Come on! I can help.",
+          "Thank you, my friend!"
+        ],
+        "dialogue_zh": [
+          "巴士在哪里？",
+          "它陷在草地里。",
+          "你能从空中看到它吗？",
+          "是的，我能看到巴士。",
+          "巴士能自己出来吗？",
+          "不能。",
+          "快来！我能帮忙。",
+          "谢谢你，我的朋友！"
+        ],
+        "story": "A blue bus is driving home on a little road. It turns and goes down into the grass. The bus cannot get out. A helicopter flies over the hill and sees the bus. It calls its friend, a yellow tow truck. The tow truck comes down the road and pulls the bus back onto the road. I am happy to see you, says the bus. Together they go home to the garage.",
+        "story_zh": "一辆蓝色巴士在小路上回家。它转弯时开进草地，无法自己出来。一架直升机飞过山坡，看见了巴士。它呼叫朋友黄色拖车。拖车沿着道路赶来，把巴士拉回路上。巴士说：见到你我很高兴。它们一起回到车库。",
+        "questions": [
+          [
+            "Where is the bus?",
+            "It is down in the grass."
+          ],
+          [
+            "Who can see the bus from the sky?",
+            "The helicopter can see it."
+          ],
+          [
+            "Can the tow truck help the bus?",
+            "Yes, it can."
+          ]
+        ],
+        "questions_zh": [
+          [
+            "巴士在哪里？",
+            "它陷在草地里。"
+          ],
+          [
+            "谁能从空中看到巴士？",
+            "直升机能看到它。"
+          ],
+          [
+            "拖车能帮助巴士吗？",
+            "是的，能。"
+          ]
+        ]
+      }
+    },
+    {
       "date": "2026-10-01",
       "theme": "The Toytown Helicopter",
       "duration_seconds": 392,
