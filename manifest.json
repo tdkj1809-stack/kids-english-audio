@@ -1,6 +1,97 @@
 {
   "lessons": [
     {
+      "date": "2026-10-05",
+      "theme": "Where Is My Toy",
+      "duration_seconds": 337,
+      "file": "audio/2026-10-05-where-is-my-toy.mp3",
+      "voice": "美式男声",
+      "content": {
+        "words": [
+          "toy",
+          "boat",
+          "helicopter",
+          "box",
+          "table",
+          "under"
+        ],
+        "words_zh": [
+          "玩具",
+          "小船",
+          "直升机",
+          "盒子",
+          "桌子",
+          "在……下面"
+        ],
+        "sentences": [
+          "Where is my toy?",
+          "It is in the box.",
+          "Where is the boat?",
+          "It is on the table.",
+          "Where is the helicopter?",
+          "It is under the chair."
+        ],
+        "sentences_zh": [
+          "我的玩具在哪里？",
+          "它在盒子里。",
+          "小船在哪里？",
+          "它在桌子上。",
+          "直升机在哪里？",
+          "它在椅子下面。"
+        ],
+        "dialogue": [
+          "Mum, where is my toy boat?",
+          "Is it in the toy box?",
+          "No, it is not.",
+          "Is it under the table?",
+          "Yes! Here it is.",
+          "Thank you, Mum.",
+          "You are welcome.",
+          "Now I can play!"
+        ],
+        "dialogue_zh": [
+          "妈妈，我的玩具船在哪里？",
+          "它在玩具箱里吗？",
+          "不，不在。",
+          "它在桌子下面吗？",
+          "是的！在这里。",
+          "谢谢妈妈。",
+          "不客气。",
+          "现在我可以玩了！"
+        ],
+        "story": "Tom wants to play with his red toy boat, but he cannot find it. He looks in the toy box. The boat is not there. He looks on the table. The boat is not there. Then his little cat runs under the table. Tom looks under the table too. There is his red boat, next to the cat. Tom is happy.",
+        "story_zh": "汤姆想玩他的红色玩具船，可是找不到。他查看了玩具箱，小船不在那里。他又看了桌面，小船也不在那里。这时，他的小猫跑到桌子下面。汤姆也向桌子下面看去。红色小船就在猫咪旁边。汤姆很开心。",
+        "questions": [
+          [
+            "What color is Tom's boat?",
+            "It is red."
+          ],
+          [
+            "Is the boat in the toy box?",
+            "No, it is not."
+          ],
+          [
+            "Where is the boat?",
+            "It is under the table."
+          ]
+        ],
+        "questions_zh": [
+          [
+            "汤姆的小船是什么颜色？",
+            "是红色的。"
+          ],
+          [
+            "小船在玩具箱里吗？",
+            "不，不在。"
+          ],
+          [
+            "小船在哪里？",
+            "在桌子下面。"
+          ]
+        ]
+      }
+    },
+    {
       "date": "2026-10-04",
       "theme": "My Morning",
       "duration_seconds": 336,
