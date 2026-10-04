@@ -1,6 +1,97 @@
 {
   "lessons": [
     {
+      "date": "2026-10-04",
+      "theme": "My Morning",
+      "duration_seconds": 336,
+      "file": "audio/2026-10-04-my-morning.mp3",
+      "voice": "美式女声",
+      "content": {
+        "words": [
+          "wake up",
+          "wash",
+          "brush",
+          "breakfast",
+          "school",
+          "happy"
+        ],
+        "words_zh": [
+          "醒来、起床",
+          "洗",
+          "刷",
+          "早餐",
+          "学校",
+          "开心的"
+        ],
+        "sentences": [
+          "I wake up in the morning.",
+          "I wash my face.",
+          "I brush my teeth.",
+          "I eat my breakfast.",
+          "I go to school.",
+          "I am happy today."
+        ],
+        "sentences_zh": [
+          "我早晨起床。",
+          "我洗脸。",
+          "我刷牙。",
+          "我吃早餐。",
+          "我去上学。",
+          "我今天很开心。"
+        ],
+        "dialogue": [
+          "Good morning, Amy!",
+          "Good morning, Ben!",
+          "Are you ready for school?",
+          "Yes, I am.",
+          "What do you eat for breakfast?",
+          "I eat bread and an egg.",
+          "Great! Let's go to school.",
+          "Let's go!"
+        ],
+        "dialogue_zh": [
+          "早上好，艾米！",
+          "早上好，本！",
+          "你准备好上学了吗？",
+          "是的，我准备好了。",
+          "你早餐吃什么？",
+          "我吃面包和一个鸡蛋。",
+          "太好了！我们去上学吧。",
+          "走吧！"
+        ],
+        "story": "Amy wakes up at seven. She washes her face and brushes her teeth. She eats bread, an egg, and an apple for breakfast. Then she puts on her blue school bag. Her father asks, Are you ready? Amy smiles and says, Yes, I am! She walks to school with her friend Ben. It is a happy morning.",
+        "story_zh": "艾米七点起床。她洗脸、刷牙。早餐她吃了面包、一个鸡蛋和一个苹果。然后她背上蓝色书包。爸爸问：你准备好了吗？艾米笑着说：是的，我准备好了！她和朋友本一起步行去学校。这是一个愉快的早晨。",
+        "questions": [
+          [
+            "What time does Amy wake up?",
+            "She wakes up at seven."
+          ],
+          [
+            "What color is Amy's school bag?",
+            "It is blue."
+          ],
+          [
+            "Who walks to school with Amy?",
+            "Her friend Ben."
+          ]
+        ],
+        "questions_zh": [
+          [
+            "艾米几点起床？",
+            "她七点起床。"
+          ],
+          [
+            "艾米的书包是什么颜色？",
+            "是蓝色的。"
+          ],
+          [
+            "谁和艾米一起走路去学校？",
+            "她的朋友本。"
+          ]
+        ]
+      }
+    },
+    {
       "date": "2026-10-03",
       "theme": "Food I Like",
       "duration_seconds": 335,
