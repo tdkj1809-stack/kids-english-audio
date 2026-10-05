@@ -1,6 +1,97 @@
 {
   "lessons": [
     {
+      "date": "2026-10-06",
+      "theme": "Mother Bird",
+      "duration_seconds": 349,
+      "file": "audio/2026-10-06-mother-bird.mp3",
+      "voice": "美式女声",
+      "content": {
+        "words": [
+          "mother bird",
+          "baby bird",
+          "hungry",
+          "worm",
+          "fly",
+          "nest"
+        ],
+        "words_zh": [
+          "鸟妈妈",
+          "鸟宝宝",
+          "饥饿的",
+          "虫子",
+          "飞",
+          "鸟巢"
+        ],
+        "sentences": [
+          "The baby bird is hungry.",
+          "Mother Bird is looking for a worm.",
+          "She can fly.",
+          "The baby bird is in the nest.",
+          "Here comes Mother Bird.",
+          "The baby bird is happy."
+        ],
+        "sentences_zh": [
+          "鸟宝宝饿了。",
+          "鸟妈妈正在寻找虫子。",
+          "她会飞。",
+          "鸟宝宝在鸟巢里。",
+          "鸟妈妈飞回来了。",
+          "鸟宝宝很开心。"
+        ],
+        "dialogue": [
+          "Are you hungry, little bird?",
+          "Yes, I am very hungry.",
+          "Where is Mother Bird?",
+          "She is looking for food.",
+          "Look! Here she comes.",
+          "She has a little worm.",
+          "Yum, yum!",
+          "The baby bird is happy now."
+        ],
+        "dialogue_zh": [
+          "你饿了吗，小鸟？",
+          "是的，我很饿。",
+          "鸟妈妈在哪里？",
+          "她正在寻找食物。",
+          "看！她回来了。",
+          "她带着一条小虫子。",
+          "真好吃！",
+          "鸟宝宝现在很开心。"
+        ],
+        "story": "A baby bird is in a small nest. The morning is warm, but the baby bird is hungry. It opens its mouth and calls for its mother. Mother Bird flies over a tree and a green field. She looks for food. At last, she sees a little worm. She takes it back to the nest. The baby bird eats the worm and sings a happy song.",
+        "story_zh": "一只鸟宝宝待在小小的鸟巢里。早晨很温暖，但是鸟宝宝饿了。它张开嘴呼唤妈妈。鸟妈妈飞过一棵树和一片绿色的田野。她四处寻找食物。最后，她看到一条小虫子。她把虫子带回鸟巢。鸟宝宝吃了虫子，唱起快乐的歌。",
+        "questions": [
+          [
+            "Where is the baby bird?",
+            "It is in the nest."
+          ],
+          [
+            "What is Mother Bird looking for?",
+            "She is looking for a worm."
+          ],
+          [
+            "Is the baby bird happy at the end?",
+            "Yes, it is."
+          ]
+        ],
+        "questions_zh": [
+          [
+            "鸟宝宝在哪里？",
+            "它在鸟巢里。"
+          ],
+          [
+            "鸟妈妈在找什么？",
+            "她在找虫子。"
+          ],
+          [
+            "最后鸟宝宝开心吗？",
+            "是的，它很开心。"
+          ]
+        ]
+      }
+    },
+    {
       "date": "2026-10-05",
       "theme": "Where Is My Toy",
       "duration_seconds": 337,
