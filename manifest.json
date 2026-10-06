@@ -1,6 +1,97 @@
 {
   "lessons": [
     {
+      "date": "2026-10-07",
+      "theme": "At School",
+      "duration_seconds": 329,
+      "file": "audio/2026-10-07-at-school.mp3",
+      "voice": "美式男声",
+      "content": {
+        "words": [
+          "teacher",
+          "classroom",
+          "book",
+          "pencil",
+          "read",
+          "write"
+        ],
+        "words_zh": [
+          "老师",
+          "教室",
+          "书",
+          "铅笔",
+          "阅读",
+          "书写"
+        ],
+        "sentences": [
+          "This is my classroom.",
+          "My teacher is kind.",
+          "I have a book.",
+          "I have two pencils.",
+          "I can read.",
+          "I can write."
+        ],
+        "sentences_zh": [
+          "这是我的教室。",
+          "我的老师很亲切。",
+          "我有一本书。",
+          "我有两支铅笔。",
+          "我会阅读。",
+          "我会写字。"
+        ],
+        "dialogue": [
+          "Good morning, class.",
+          "Good morning, Miss Green.",
+          "Please open your books.",
+          "Yes, Miss Green.",
+          "Can you read this word?",
+          "Yes, I can.",
+          "Well done!",
+          "Thank you!"
+        ],
+        "dialogue_zh": [
+          "同学们，早上好。",
+          "早上好，格林老师。",
+          "请打开你们的书。",
+          "好的，格林老师。",
+          "你会读这个单词吗？",
+          "是的，我会。",
+          "做得好！",
+          "谢谢！"
+        ],
+        "story": "Lucy is in her classroom. She sits next to Jack. Their teacher, Miss Green, writes a word on the board. The word is boat. Lucy reads the word. Then Jack writes it in his book. Miss Green says, Well done! Lucy and Jack smile. They like English class.",
+        "story_zh": "露西在教室里。她坐在杰克旁边。他们的老师格林老师在黑板上写了一个单词。这个单词是boat。露西读出这个单词，然后杰克把它写在书上。格林老师说：做得好！露西和杰克笑了。他们喜欢英语课。",
+        "questions": [
+          [
+            "Who is the teacher?",
+            "Miss Green is the teacher."
+          ],
+          [
+            "What word is on the board?",
+            "The word boat."
+          ],
+          [
+            "Do Lucy and Jack like English class?",
+            "Yes, they do."
+          ]
+        ],
+        "questions_zh": [
+          [
+            "老师是谁？",
+            "老师是格林老师。"
+          ],
+          [
+            "黑板上是什么单词？",
+            "是boat这个单词。"
+          ],
+          [
+            "露西和杰克喜欢英语课吗？",
+            "是的，他们喜欢。"
+          ]
+        ]
+      }
+    },
+    {
       "date": "2026-10-06",
       "theme": "Mother Bird",
       "duration_seconds": 349,
@@ -639,96 +730,6 @@
           [
             "他们一起做了什么？",
             "他们做了水果沙拉。"
-          ]
-        ]
-      }
-    },
-    {
-      "date": "2026-09-30",
-      "theme": "At School",
-      "duration_seconds": 571,
-      "file": "audio/2026-09-30-at-school.mp3",
-      "content": {
-        "words": [
-          "teacher",
-          "classroom",
-          "book",
-          "pencil",
-          "read",
-          "write"
-        ],
-        "words_zh": [
-          "老师",
-          "教室",
-          "书",
-          "铅笔",
-          "阅读",
-          "书写"
-        ],
-        "sentences": [
-          "This is my classroom.",
-          "My teacher is kind.",
-          "I have a book.",
-          "I have two pencils.",
-          "I can read.",
-          "I can write."
-        ],
-        "sentences_zh": [
-          "这是我的教室。",
-          "我的老师很亲切。",
-          "我有一本书。",
-          "我有两支铅笔。",
-          "我会阅读。",
-          "我会写字。"
-        ],
-        "dialogue": [
-          "Good morning, class.",
-          "Good morning, Miss Green.",
-          "Please open your books.",
-          "Yes, Miss Green.",
-          "Can you read this word?",
-          "Yes, I can.",
-          "Well done!",
-          "Thank you!"
-        ],
-        "dialogue_zh": [
-          "同学们，早上好。",
-          "早上好，格林老师。",
-          "请打开你们的书。",
-          "好的，格林老师。",
-          "你会读这个单词吗？",
-          "是的，我会。",
-          "做得好！",
-          "谢谢！"
-        ],
-        "story": "Lucy is in her classroom. She sits next to Jack. Their teacher, Miss Green, writes a word on the board. The word is boat. Lucy reads the word. Then Jack writes it in his book. Miss Green says, Well done! Lucy and Jack smile. They like English class.",
-        "story_zh": "露西在教室里。她坐在杰克旁边。他们的老师格林老师在黑板上写了一个单词。这个单词是boat。露西读出这个单词，然后杰克把它写在书上。格林老师说：做得好！露西和杰克笑了。他们喜欢英语课。",
-        "questions": [
-          [
-            "Who is the teacher?",
-            "Miss Green is the teacher."
-          ],
-          [
-            "What word is on the board?",
-            "The word boat."
-          ],
-          [
-            "Do Lucy and Jack like English class?",
-            "Yes, they do."
-          ]
-        ],
-        "questions_zh": [
-          [
-            "老师是谁？",
-            "老师是格林老师。"
-          ],
-          [
-            "黑板上是什么单词？",
-            "是boat这个单词。"
-          ],
-          [
-            "露西和杰克喜欢英语课吗？",
-            "是的，他们喜欢。"
           ]
         ]
       }
