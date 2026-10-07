@@ -1,6 +1,97 @@
 {
   "lessons": [
     {
+      "date": "2026-10-08",
+      "theme": "My Family",
+      "duration_seconds": 331,
+      "file": "audio/2026-10-08-my-family.mp3",
+      "voice": "美式女声",
+      "content": {
+        "words": [
+          "family",
+          "mother",
+          "father",
+          "sister",
+          "brother",
+          "grandma"
+        ],
+        "words_zh": [
+          "家庭",
+          "妈妈",
+          "爸爸",
+          "姐妹",
+          "兄弟",
+          "奶奶或外婆"
+        ],
+        "sentences": [
+          "This is my family.",
+          "My mother is kind.",
+          "My father is tall.",
+          "I have one sister.",
+          "I play with my brother.",
+          "I love my grandma."
+        ],
+        "sentences_zh": [
+          "这是我的家人。",
+          "我的妈妈很亲切。",
+          "我的爸爸很高。",
+          "我有一个姐妹。",
+          "我和弟弟一起玩。",
+          "我爱我的奶奶。"
+        ],
+        "dialogue": [
+          "Who is in this picture?",
+          "This is my family.",
+          "Who is this woman?",
+          "She is my mother.",
+          "Do you have a brother?",
+          "Yes, I do.",
+          "How old is he?",
+          "He is five years old."
+        ],
+        "dialogue_zh": [
+          "照片里是谁？",
+          "这是我的家人。",
+          "这位女士是谁？",
+          "她是我的妈妈。",
+          "你有兄弟吗？",
+          "是的，我有。",
+          "他几岁？",
+          "他五岁。"
+        ],
+        "story": "Sam has a happy family. His mother likes flowers, and his father likes books. Sam has a little brother named Max. Max is five years old. On Sunday, Grandma comes to their home. They make a big fruit salad together. After lunch, Sam and Max play with a yellow ball. Everyone has a good day.",
+        "story_zh": "萨姆有一个幸福的家庭。他的妈妈喜欢花，爸爸喜欢书。萨姆有一个名叫马克斯的弟弟。马克斯五岁。星期天，奶奶来到他们家。他们一起做了一大份水果沙拉。午饭后，萨姆和马克斯玩一个黄色的球。大家都度过了愉快的一天。",
+        "questions": [
+          [
+            "What does Sam's father like?",
+            "He likes books."
+          ],
+          [
+            "How old is Max?",
+            "He is five years old."
+          ],
+          [
+            "What do they make together?",
+            "They make a fruit salad."
+          ]
+        ],
+        "questions_zh": [
+          [
+            "萨姆的爸爸喜欢什么？",
+            "他喜欢书。"
+          ],
+          [
+            "马克斯几岁？",
+            "他五岁。"
+          ],
+          [
+            "他们一起做了什么？",
+            "他们做了水果沙拉。"
+          ]
+        ]
+      }
+    },
+    {
       "date": "2026-10-07",
       "theme": "At School",
       "duration_seconds": 329,
@@ -544,192 +635,6 @@
           [
             "拖车能帮助巴士吗？",
             "是的，能。"
-          ]
-        ]
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "theme": "The Toytown Helicopter",
-      "duration_seconds": 392,
-      "file": "audio/2026-10-01-the-toytown-helicopter.mp3",
-      "voice": "美式男声",
-      "content": {
-        "words": [
-          "helicopter",
-          "motorbike",
-          "bike",
-          "garage",
-          "tow truck",
-          "ship",
-          "train",
-          "fire engine"
-        ],
-        "words_zh": [
-          "直升机",
-          "摩托车",
-          "自行车",
-          "车库",
-          "拖车",
-          "轮船",
-          "火车",
-          "消防车"
-        ],
-        "sentences": [
-          "The rain is coming down.",
-          "Where is the helicopter?",
-          "I am going to look for the helicopter.",
-          "The bus is coming home to the garage.",
-          "The rain is going away.",
-          "Here comes the sun."
-        ],
-        "sentences_zh": [
-          "开始下雨了。",
-          "直升机在哪里？",
-          "我要去找直升机。",
-          "公共汽车正返回车库。",
-          "雨正在停。",
-          "太阳出来了。"
-        ],
-        "dialogue": [
-          "Look at the rain!",
-          "Where is the helicopter?",
-          "Is it in the garage?",
-          "No, it is not.",
-          "I am going to look for the helicopter.",
-          "Look! The rain is going away.",
-          "Here comes the sun.",
-          "And here comes the helicopter!"
-        ],
-        "dialogue_zh": [
-          "看，下雨了！",
-          "直升机在哪里？",
-          "它在车库里吗？",
-          "不，它不在。",
-          "我要去找直升机。",
-          "看！雨正在停。",
-          "太阳出来了。",
-          "直升机也回来了！"
-        ],
-        "story": "It is raining in Toytown. The bus, the tow truck, and the fire engine are safe in the garage, but the helicopter is not there. The friends ask, Where is the helicopter? The tow truck wants to look for it. Soon, the rain goes away and the sun comes out. They hear a sound in the sky. The helicopter is coming home. All the friends are happy to see it safe.",
-        "story_zh": "玩具城正在下雨。公共汽车、拖车和消防车都安全地待在车库里，但是直升机不在那里。朋友们问：直升机在哪里？拖车想去寻找它。不久，雨停了，太阳出来了。他们听见空中传来声音，直升机正在回家。看到它安全回来，朋友们都很开心。",
-        "questions": [
-          [
-            "Where are the bus and the fire engine?",
-            "They are in the garage."
-          ],
-          [
-            "Who is going to look for the helicopter?",
-            "The tow truck is going to look for it."
-          ],
-          [
-            "What happens after the rain goes away?",
-            "The sun comes out and the helicopter comes home."
-          ]
-        ],
-        "questions_zh": [
-          [
-            "公共汽车和消防车在哪里？",
-            "它们在车库里。"
-          ],
-          [
-            "谁要去寻找直升机？",
-            "拖车要去寻找它。"
-          ],
-          [
-            "雨停以后发生了什么？",
-            "太阳出来了，直升机也回家了。"
-          ]
-        ]
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "theme": "My Family",
-      "duration_seconds": 574,
-      "file": "audio/2026-10-01-my-family.mp3",
-      "voice": "美式男声",
-      "content": {
-        "words": [
-          "family",
-          "mother",
-          "father",
-          "sister",
-          "brother",
-          "grandma"
-        ],
-        "words_zh": [
-          "家庭",
-          "妈妈",
-          "爸爸",
-          "姐妹",
-          "兄弟",
-          "奶奶或外婆"
-        ],
-        "sentences": [
-          "This is my family.",
-          "My mother is kind.",
-          "My father is tall.",
-          "I have one sister.",
-          "I play with my brother.",
-          "I love my grandma."
-        ],
-        "sentences_zh": [
-          "这是我的家人。",
-          "我的妈妈很亲切。",
-          "我的爸爸很高。",
-          "我有一个姐妹。",
-          "我和弟弟一起玩。",
-          "我爱我的奶奶。"
-        ],
-        "dialogue": [
-          "Who is in this picture?",
-          "This is my family.",
-          "Who is this woman?",
-          "She is my mother.",
-          "Do you have a brother?",
-          "Yes, I do.",
-          "How old is he?",
-          "He is five years old."
-        ],
-        "dialogue_zh": [
-          "照片里是谁？",
-          "这是我的家人。",
-          "这位女士是谁？",
-          "她是我的妈妈。",
-          "你有兄弟吗？",
-          "是的，我有。",
-          "他几岁？",
-          "他五岁。"
-        ],
-        "story": "Sam has a happy family. His mother likes flowers, and his father likes books. Sam has a little brother named Max. Max is five years old. On Sunday, Grandma comes to their home. They make a big fruit salad together. After lunch, Sam and Max play with a yellow ball. Everyone has a good day.",
-        "story_zh": "萨姆有一个幸福的家庭。他的妈妈喜欢花，爸爸喜欢书。萨姆有一个名叫马克斯的弟弟。马克斯五岁。星期天，奶奶来到他们家。他们一起做了一大份水果沙拉。午饭后，萨姆和马克斯玩一个黄色的球。大家都度过了愉快的一天。",
-        "questions": [
-          [
-            "What does Sam's father like?",
-            "He likes books."
-          ],
-          [
-            "How old is Max?",
-            "He is five years old."
-          ],
-          [
-            "What do they make together?",
-            "They make a fruit salad."
-          ]
-        ],
-        "questions_zh": [
-          [
-            "萨姆的爸爸喜欢什么？",
-            "他喜欢书。"
-          ],
-          [
-            "马克斯几岁？",
-            "他五岁。"
-          ],
-          [
-            "他们一起做了什么？",
-            "他们做了水果沙拉。"
           ]
         ]
       }
