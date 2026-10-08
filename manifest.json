@@ -1,6 +1,97 @@
 {
   "lessons": [
     {
+      "date": "2026-10-09",
+      "theme": "At the Park",
+      "duration_seconds": 327,
+      "file": "audio/2026-10-09-at-the-park.mp3",
+      "voice": "美式男声",
+      "content": {
+        "words": [
+          "park",
+          "run",
+          "jump",
+          "swing",
+          "slide",
+          "kite"
+        ],
+        "words_zh": [
+          "公园",
+          "跑",
+          "跳",
+          "秋千",
+          "滑梯",
+          "风筝"
+        ],
+        "sentences": [
+          "We are at the park.",
+          "I can run fast.",
+          "Can you jump?",
+          "Yes, I can.",
+          "The girl is on the swing.",
+          "The boy has a kite."
+        ],
+        "sentences_zh": [
+          "我们在公园里。",
+          "我能跑得很快。",
+          "你会跳吗？",
+          "是的，我会。",
+          "女孩在荡秋千。",
+          "男孩有一只风筝。"
+        ],
+        "dialogue": [
+          "Let's go to the park.",
+          "Great idea!",
+          "Can you fly a kite?",
+          "Yes, I can.",
+          "Look at the red kite!",
+          "It is very high.",
+          "Now let's play on the slide.",
+          "Okay!"
+        ],
+        "dialogue_zh": [
+          "我们去公园吧。",
+          "好主意！",
+          "你会放风筝吗？",
+          "是的，我会。",
+          "看那只红色的风筝！",
+          "它飞得很高。",
+          "现在我们去玩滑梯吧。",
+          "好的！"
+        ],
+        "story": "It is sunny today. Mia and Leo go to the park. Mia plays on the swing. Leo runs with a red kite. The kite goes high in the blue sky. Then they see a small dog near the slide. The dog has a green ball. Mia throws the ball, and the dog runs to get it. They all have fun.",
+        "story_zh": "今天天气晴朗。米娅和利奥去公园。米娅荡秋千，利奥拿着一只红色风筝奔跑。风筝飞到蓝天高处。接着，他们在滑梯旁看到一只小狗。小狗有一个绿色的球。米娅把球扔出去，小狗跑去捡球。他们都玩得很开心。",
+        "questions": [
+          [
+            "What is the weather like?",
+            "It is sunny."
+          ],
+          [
+            "What color is the kite?",
+            "It is red."
+          ],
+          [
+            "What does the small dog have?",
+            "It has a green ball."
+          ]
+        ],
+        "questions_zh": [
+          [
+            "天气怎么样？",
+            "天气晴朗。"
+          ],
+          [
+            "风筝是什么颜色？",
+            "是红色的。"
+          ],
+          [
+            "小狗有什么？",
+            "它有一个绿色的球。"
+          ]
+        ]
+      }
+    },
+    {
       "date": "2026-10-08",
       "theme": "My Family",
       "duration_seconds": 331,
@@ -542,99 +633,6 @@
           [
             "他们坐在哪里？",
             "他们坐在桌边。"
-          ]
-        ]
-      }
-    },
-    {
-      "date": "2026-10-02",
-      "theme": "The Toytown Rescue",
-      "duration_seconds": 363,
-      "file": "audio/2026-10-02-the-toytown-rescue.mp3",
-      "voice": "美式女声",
-      "content": {
-        "words": [
-          "bus",
-          "road",
-          "grass",
-          "helicopter",
-          "tow truck",
-          "rescue",
-          "friend"
-        ],
-        "words_zh": [
-          "巴士",
-          "道路",
-          "草地",
-          "直升机",
-          "拖车",
-          "营救",
-          "朋友"
-        ],
-        "sentences": [
-          "The bus is down in the grass.",
-          "I cannot see the bus.",
-          "The helicopter can see the bus.",
-          "The bus cannot get out.",
-          "The tow truck can help.",
-          "I am happy to see you."
-        ],
-        "sentences_zh": [
-          "巴士陷在草地里。",
-          "我看不到巴士。",
-          "直升机能看到巴士。",
-          "巴士无法脱困。",
-          "拖车可以帮忙。",
-          "见到你我很高兴。"
-        ],
-        "dialogue": [
-          "Where is the bus?",
-          "It is down in the grass.",
-          "Can you see it from the sky?",
-          "Yes, I can see the bus.",
-          "Can the bus get out?",
-          "No, it cannot.",
-          "Come on! I can help.",
-          "Thank you, my friend!"
-        ],
-        "dialogue_zh": [
-          "巴士在哪里？",
-          "它陷在草地里。",
-          "你能从空中看到它吗？",
-          "是的，我能看到巴士。",
-          "巴士能自己出来吗？",
-          "不能。",
-          "快来！我能帮忙。",
-          "谢谢你，我的朋友！"
-        ],
-        "story": "A blue bus is driving home on a little road. It turns and goes down into the grass. The bus cannot get out. A helicopter flies over the hill and sees the bus. It calls its friend, a yellow tow truck. The tow truck comes down the road and pulls the bus back onto the road. I am happy to see you, says the bus. Together they go home to the garage.",
-        "story_zh": "一辆蓝色巴士在小路上回家。它转弯时开进草地，无法自己出来。一架直升机飞过山坡，看见了巴士。它呼叫朋友黄色拖车。拖车沿着道路赶来，把巴士拉回路上。巴士说：见到你我很高兴。它们一起回到车库。",
-        "questions": [
-          [
-            "Where is the bus?",
-            "It is down in the grass."
-          ],
-          [
-            "Who can see the bus from the sky?",
-            "The helicopter can see it."
-          ],
-          [
-            "Can the tow truck help the bus?",
-            "Yes, it can."
-          ]
-        ],
-        "questions_zh": [
-          [
-            "巴士在哪里？",
-            "它陷在草地里。"
-          ],
-          [
-            "谁能从空中看到巴士？",
-            "直升机能看到它。"
-          ],
-          [
-            "拖车能帮助巴士吗？",
-            "是的，能。"
           ]
         ]
       }
