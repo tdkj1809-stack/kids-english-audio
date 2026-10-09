@@ -1,6 +1,97 @@
 {
   "lessons": [
     {
+      "date": "2026-10-10",
+      "theme": "Food I Like",
+      "duration_seconds": 332,
+      "file": "audio/2026-10-10-food-i-like.mp3",
+      "voice": "美式女声",
+      "content": {
+        "words": [
+          "apple",
+          "banana",
+          "bread",
+          "milk",
+          "hungry",
+          "delicious"
+        ],
+        "words_zh": [
+          "苹果",
+          "香蕉",
+          "面包",
+          "牛奶",
+          "饥饿的",
+          "美味的"
+        ],
+        "sentences": [
+          "I like apples.",
+          "I do not like hot milk.",
+          "What would you like?",
+          "I would like some bread.",
+          "I am hungry.",
+          "This banana is delicious."
+        ],
+        "sentences_zh": [
+          "我喜欢苹果。",
+          "我不喜欢热牛奶。",
+          "你想要什么？",
+          "我想要一些面包。",
+          "我饿了。",
+          "这根香蕉很好吃。"
+        ],
+        "dialogue": [
+          "Are you hungry?",
+          "Yes, I am.",
+          "Would you like an apple?",
+          "Yes, please.",
+          "Would you like some milk?",
+          "No, thank you.",
+          "Here is your apple.",
+          "Thank you. It is delicious!"
+        ],
+        "dialogue_zh": [
+          "你饿了吗？",
+          "是的，我饿了。",
+          "你想要一个苹果吗？",
+          "好的，谢谢。",
+          "你想喝些牛奶吗？",
+          "不用了，谢谢。",
+          "这是你的苹果。",
+          "谢谢，真好吃！"
+        ],
+        "story": "Nina is hungry after school. She goes to the kitchen with her dad. There are apples, bananas, bread, and milk. Nina chooses a green apple and a piece of bread. Dad chooses a banana. They sit at the table and talk about their day. Nina says the apple is sweet and delicious.",
+        "story_zh": "放学后妮娜饿了。她和爸爸一起去厨房。那里有苹果、香蕉、面包和牛奶。妮娜选了一个青苹果和一片面包，爸爸选了一根香蕉。他们坐在桌边谈论当天发生的事情。妮娜说苹果又甜又好吃。",
+        "questions": [
+          [
+            "When is Nina hungry?",
+            "She is hungry after school."
+          ],
+          [
+            "What does Nina choose?",
+            "A green apple and some bread."
+          ],
+          [
+            "Where do they sit?",
+            "They sit at the table."
+          ]
+        ],
+        "questions_zh": [
+          [
+            "妮娜什么时候饿了？",
+            "她放学后饿了。"
+          ],
+          [
+            "妮娜选择了什么？",
+            "一个青苹果和一些面包。"
+          ],
+          [
+            "他们坐在哪里？",
+            "他们坐在桌边。"
+          ]
+        ]
+      }
+    },
+    {
       "date": "2026-10-09",
       "theme": "At the Park",
       "duration_seconds": 327,
@@ -542,97 +633,6 @@
           [
             "谁和艾米一起走路去学校？",
             "她的朋友本。"
-          ]
-        ]
-      }
-    },
-    {
-      "date": "2026-10-03",
-      "theme": "Food I Like",
-      "duration_seconds": 335,
-      "file": "audio/2026-10-03-food-i-like.mp3",
-      "voice": "美式男声",
-      "content": {
-        "words": [
-          "apple",
-          "banana",
-          "bread",
-          "milk",
-          "hungry",
-          "delicious"
-        ],
-        "words_zh": [
-          "苹果",
-          "香蕉",
-          "面包",
-          "牛奶",
-          "饥饿的",
-          "美味的"
-        ],
-        "sentences": [
-          "I like apples.",
-          "I do not like hot milk.",
-          "What would you like?",
-          "I would like some bread.",
-          "I am hungry.",
-          "This banana is delicious."
-        ],
-        "sentences_zh": [
-          "我喜欢苹果。",
-          "我不喜欢热牛奶。",
-          "你想要什么？",
-          "我想要一些面包。",
-          "我饿了。",
-          "这根香蕉很好吃。"
-        ],
-        "dialogue": [
-          "Are you hungry?",
-          "Yes, I am.",
-          "Would you like an apple?",
-          "Yes, please.",
-          "Would you like some milk?",
-          "No, thank you.",
-          "Here is your apple.",
-          "Thank you. It is delicious!"
-        ],
-        "dialogue_zh": [
-          "你饿了吗？",
-          "是的，我饿了。",
-          "你想要一个苹果吗？",
-          "好的，谢谢。",
-          "你想喝些牛奶吗？",
-          "不用了，谢谢。",
-          "这是你的苹果。",
-          "谢谢，真好吃！"
-        ],
-        "story": "Nina is hungry after school. She goes to the kitchen with her dad. There are apples, bananas, bread, and milk. Nina chooses a green apple and a piece of bread. Dad chooses a banana. They sit at the table and talk about their day. Nina says the apple is sweet and delicious.",
-        "story_zh": "放学后妮娜饿了。她和爸爸一起去厨房。那里有苹果、香蕉、面包和牛奶。妮娜选了一个青苹果和一片面包，爸爸选了一根香蕉。他们坐在桌边谈论当天发生的事情。妮娜说苹果又甜又好吃。",
-        "questions": [
-          [
-            "When is Nina hungry?",
-            "She is hungry after school."
-          ],
-          [
-            "What does Nina choose?",
-            "A green apple and some bread."
-          ],
-          [
-            "Where do they sit?",
-            "They sit at the table."
-          ]
-        ],
-        "questions_zh": [
-          [
-            "妮娜什么时候饿了？",
-            "她放学后饿了。"
-          ],
-          [
-            "妮娜选择了什么？",
-            "一个青苹果和一些面包。"
-          ],
-          [
-            "他们坐在哪里？",
-            "他们坐在桌边。"
           ]
         ]
       }
