@@ -1,6 +1,97 @@
 {
   "lessons": [
     {
+      "date": "2026-10-30",
+      "theme": "At the Park",
+      "duration_seconds": 326,
+      "file": "audio/2026-10-30-at-the-park.mp3",
+      "voice": "美式女声",
+      "content": {
+        "words": [
+          "park",
+          "run",
+          "jump",
+          "swing",
+          "slide",
+          "kite"
+        ],
+        "words_zh": [
+          "公园",
+          "跑",
+          "跳",
+          "秋千",
+          "滑梯",
+          "风筝"
+        ],
+        "sentences": [
+          "We are at the park.",
+          "I can run fast.",
+          "Can you jump?",
+          "Yes, I can.",
+          "The girl is on the swing.",
+          "The boy has a kite."
+        ],
+        "sentences_zh": [
+          "我们在公园里。",
+          "我能跑得很快。",
+          "你会跳吗？",
+          "是的，我会。",
+          "女孩在荡秋千。",
+          "男孩有一只风筝。"
+        ],
+        "dialogue": [
+          "Let's go to the park.",
+          "Great idea!",
+          "Can you fly a kite?",
+          "Yes, I can.",
+          "Look at the red kite!",
+          "It is very high.",
+          "Now let's play on the slide.",
+          "Okay!"
+        ],
+        "dialogue_zh": [
+          "我们去公园吧。",
+          "好主意！",
+          "你会放风筝吗？",
+          "是的，我会。",
+          "看那只红色的风筝！",
+          "它飞得很高。",
+          "现在我们去玩滑梯吧。",
+          "好的！"
+        ],
+        "story": "It is sunny today. Mia and Leo go to the park. Mia plays on the swing. Leo runs with a red kite. The kite goes high in the blue sky. Then they see a small dog near the slide. The dog has a green ball. Mia throws the ball, and the dog runs to get it. They all have fun.",
+        "story_zh": "今天天气晴朗。米娅和利奥去公园。米娅荡秋千，利奥拿着一只红色风筝奔跑。风筝飞到蓝天高处。接着，他们在滑梯旁看到一只小狗。小狗有一个绿色的球。米娅把球扔出去，小狗跑去捡球。他们都玩得很开心。",
+        "questions": [
+          [
+            "What is the weather like?",
+            "It is sunny."
+          ],
+          [
+            "What color is the kite?",
+            "It is red."
+          ],
+          [
+            "What does the small dog have?",
+            "It has a green ball."
+          ]
+        ],
+        "questions_zh": [
+          [
+            "天气怎么样？",
+            "天气晴朗。"
+          ],
+          [
+            "风筝是什么颜色？",
+            "是红色的。"
+          ],
+          [
+            "小狗有什么？",
+            "它有一个绿色的球。"
+          ]
+        ]
+      }
+    },
+    {
       "date": "2026-10-29",
       "theme": "My Family",
       "duration_seconds": 332,
@@ -542,97 +633,6 @@
           [
             "他们坐在哪里？",
             "他们坐在桌边。"
-          ]
-        ]
-      }
-    },
-    {
-      "date": "2026-10-23",
-      "theme": "At the Park",
-      "duration_seconds": 327,
-      "file": "audio/2026-10-23-at-the-park.mp3",
-      "voice": "美式男声",
-      "content": {
-        "words": [
-          "park",
-          "run",
-          "jump",
-          "swing",
-          "slide",
-          "kite"
-        ],
-        "words_zh": [
-          "公园",
-          "跑",
-          "跳",
-          "秋千",
-          "滑梯",
-          "风筝"
-        ],
-        "sentences": [
-          "We are at the park.",
-          "I can run fast.",
-          "Can you jump?",
-          "Yes, I can.",
-          "The girl is on the swing.",
-          "The boy has a kite."
-        ],
-        "sentences_zh": [
-          "我们在公园里。",
-          "我能跑得很快。",
-          "你会跳吗？",
-          "是的，我会。",
-          "女孩在荡秋千。",
-          "男孩有一只风筝。"
-        ],
-        "dialogue": [
-          "Let's go to the park.",
-          "Great idea!",
-          "Can you fly a kite?",
-          "Yes, I can.",
-          "Look at the red kite!",
-          "It is very high.",
-          "Now let's play on the slide.",
-          "Okay!"
-        ],
-        "dialogue_zh": [
-          "我们去公园吧。",
-          "好主意！",
-          "你会放风筝吗？",
-          "是的，我会。",
-          "看那只红色的风筝！",
-          "它飞得很高。",
-          "现在我们去玩滑梯吧。",
-          "好的！"
-        ],
-        "story": "It is sunny today. Mia and Leo go to the park. Mia plays on the swing. Leo runs with a red kite. The kite goes high in the blue sky. Then they see a small dog near the slide. The dog has a green ball. Mia throws the ball, and the dog runs to get it. They all have fun.",
-        "story_zh": "今天天气晴朗。米娅和利奥去公园。米娅荡秋千，利奥拿着一只红色风筝奔跑。风筝飞到蓝天高处。接着，他们在滑梯旁看到一只小狗。小狗有一个绿色的球。米娅把球扔出去，小狗跑去捡球。他们都玩得很开心。",
-        "questions": [
-          [
-            "What is the weather like?",
-            "It is sunny."
-          ],
-          [
-            "What color is the kite?",
-            "It is red."
-          ],
-          [
-            "What does the small dog have?",
-            "It has a green ball."
-          ]
-        ],
-        "questions_zh": [
-          [
-            "天气怎么样？",
-            "天气晴朗。"
-          ],
-          [
-            "风筝是什么颜色？",
-            "是红色的。"
-          ],
-          [
-            "小狗有什么？",
-            "它有一个绿色的球。"
           ]
         ]
       }
